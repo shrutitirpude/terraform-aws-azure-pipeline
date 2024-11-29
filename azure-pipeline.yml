@@ -29,5 +29,5 @@ stages:
       inputs:
         provider: 'aws'
         command: 'apply'
-        workingDirectory: '$(System.DefaultWorkingDirectory)/aws'
+        workingDirectory: '$(System.DefaultWorkingDirectory)/'
         environmentServiceNameAWS: 'aws-eu-west-1'
